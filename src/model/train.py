@@ -35,7 +35,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
 # Train model, get predictions
 reg = Ridge()
-reg.fit(X_train, y_train)
+reg.fit(X_train, y_train) 
 y_pred = reg.predict(X_test)
 
 run = wandb.init(project='regression', name="regression")
