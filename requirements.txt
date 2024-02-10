@@ -33,8 +33,4 @@ smmap==5.0.1
 threadpoolctl==3.2.0
 tzdata==2023.4
 urllib3==2.2.0
-<<<<<<< HEAD
 wandb==0.16.3
-=======
-wandb==0.16.3
->>>>>>> 1bacb9e032ea64cd8b1b286587342582d589a941
