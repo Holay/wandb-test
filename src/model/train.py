@@ -21,7 +21,7 @@ warnings.filterwarnings("ignore", category=ConvergenceWarning)
 # Import the model class from the main file
 from src.Classifier import Classifier
 
-import wandb
+import wandb 
 
 # Load data
 housing = datasets.fetch_california_housing()
