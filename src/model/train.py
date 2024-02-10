@@ -18,8 +18,6 @@ from sklearn.utils.class_weight import compute_class_weight
 from sklearn.exceptions import ConvergenceWarning
 warnings.filterwarnings("ignore", category=ConvergenceWarning)
 
-# Import the model class from the main file
-from src.Classifier import Classifier
 
 import wandb 
 
